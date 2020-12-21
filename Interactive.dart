@@ -1,6 +1,6 @@
-import 'dart:io' as io;
+import 'dart:io';
 
-main(){
+main() {
   print('Hello what is your name: ');
-  print(readLineSync());
+  print(stdin.readLineSync());
 }
