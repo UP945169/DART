@@ -7,4 +7,9 @@ void main() {
   print(bookNoOfPages.runtimeType);
 
   //more type annotations
+  var number = 20.10;
+  print(number);
+
+  number = 3.210;
+  print(number);
 }
