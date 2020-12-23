@@ -11,4 +11,10 @@ void main() {
   listOfVegtables.addAll(["broccoli", "zucchini"]);
 
   print(listOfVegtables);
+
+  //removing elements
+
+  print(listOfVegtables);
+  listOfVegtables.removeAt(0);
+  print(listOfVegtables);
 }
