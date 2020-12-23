@@ -10,5 +10,6 @@ void main() {
   print(MapofList);
 
   //the toList() method makes a map back to a list
-  MapofList.toList();
+  var MAP = MapofList.toList();
+  print(MAP);
 }
