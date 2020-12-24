@@ -40,4 +40,7 @@ void main() {
   print(intersection);
 
   //union between sets
+
+  var intersection2 = set1.union(set2);
+  print(intersection2);
 }
