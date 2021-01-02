@@ -17,6 +17,4 @@ void firstFunction() {
       print(thirdLevel);
     }
   }
-
-  // print(thirdLevel);
 }
