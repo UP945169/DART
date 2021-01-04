@@ -12,9 +12,7 @@ class Animal {
 }
 
 main() {
-  Cat nora = Cat();
-  nora.name = "nora";
-  nora.color = "Orange";
+  Animal nora = Animal("nora", "Orange");
 
   print(nora.color);
 }
