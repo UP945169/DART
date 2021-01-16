@@ -12,9 +12,13 @@ class Animal {
 }
 
 main() {
+<<<<<<< HEAD
   Animal nora = Animal("Nora", "Orange");
   nora.name = "nora";
   nora.color = "Orange";
+=======
+  Animal nora = Animal("nora", "Orange");
+>>>>>>> 79ccc56bf8ce92b1e95affb972637d14be935a8b
 
   print(nora.color);
 }
