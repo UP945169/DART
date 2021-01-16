@@ -12,7 +12,7 @@ class Animal {
 }
 
 main() {
-  Cat nora = Cat();
+  Animal nora = Animal("Nora", "Orange");
   nora.name = "nora";
   nora.color = "Orange";
 
